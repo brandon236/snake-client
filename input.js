@@ -17,6 +17,15 @@ const handleUserInput = function() {
     if (key === '\u0064') {
       connection.write('Move: right');
     }
+    if (key === '\u006f') {
+      connection.write( 'Say: Wooooo.');
+    }
+    if (key === '\u0070') {
+      connection.write( 'Say: 01101000101');
+    }
+    if (key === '\u006c') {
+      connection.write( 'Say: Base 12 is the best.');
+    }
     if (key === '\u0003') {
       process.exit();
     }
